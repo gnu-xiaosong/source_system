@@ -21,7 +21,7 @@
 ### 安装方法
 * 把源码包解压放到网站跟目录，然后访问域名即可进入安装页面。根据页面操作填写数据库信息即可。
 注意:*如果安装后发现进入数据库中查看没有xs_user表，将/public/install/localhost.sql自己导入到相应数据即可*
-* 后台地址为:http://域名/public/index.php/admin(默认管理员账号:admin,密码:xskj,请安装装后自行修改管理员信息)
+ 后台地址为:http://域名/public/index.php/admin(默认管理员账号:admin,密码:xskj,请安装装后自行修改管理员信息)
 ## 目录结构
 
 ## 日志更新

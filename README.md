@@ -10,6 +10,9 @@
 * thinkphp后端接口开发
 ## 体验地址
 [体验地址](http://shop.xskj.store)
+## 项目截图
+* 首页:
+* 后台:
 ## 下载地址
 * 蓝奏云:[下载](https://fusong.lanzous.com/b01c4sc6j
 )密码:dcqg

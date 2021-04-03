@@ -11,7 +11,7 @@
 * vue前端开发
 * thinkphp后端接口开发
 ## 体验地址
-[体验地址](http://shop.xskj.store)
+[体验地址](http://zy.xskj.store)
 ## 项目截图
 * 首页:
 [![yoXVtP.jpg](https://s3.ax1x.com/2021/02/21/yoXVtP.jpg)](https://imgchr.com/i/yoXVtP)

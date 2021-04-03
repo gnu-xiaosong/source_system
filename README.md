@@ -20,7 +20,8 @@
 [![yoOqm9.jpg](https://s3.ax1x.com/2021/02/21/yoOqm9.jpg)](https://imgchr.com/i/yoOqm9)
 [![yoXimd.jpg](https://s3.ax1x.com/2021/02/21/yoXimd.jpg)](https://imgchr.com/i/yoXimd)
 ## 下载地址
-* 蓝奏云:[下载](https://fusong.lanzous.com/impkcly7lle)
+* 蓝奏云:[下载](https://fusong.lanzous.com/b01c4sc6j)
+密码:dcqg
 ## 安装
 ### 环境
 * php>7.0(建议php7.4)

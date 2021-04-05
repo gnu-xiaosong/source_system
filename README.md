@@ -20,8 +20,10 @@
 [![yoOqm9.jpg](https://s3.ax1x.com/2021/02/21/yoOqm9.jpg)](https://imgchr.com/i/yoOqm9)
 [![yoXimd.jpg](https://s3.ax1x.com/2021/02/21/yoXimd.jpg)](https://imgchr.com/i/yoXimd)
 ## 下载地址
-* 程序下载:[下载](https://fusong.lanzous.com/b01c4sc8b
+* v1.0程序下载:[下载](https://fusong.lanzous.com/b01c4sc8b
 )密码:69kz
+* v2.0程序下载:[下载](https://fusong.lanzous.com/b01c9c2gd
+)密码:a0ym
 * 资源包:[下载](https://fusong.lanzous.com/b01c4vzkj
 )密码:6hvm
 ## 安装

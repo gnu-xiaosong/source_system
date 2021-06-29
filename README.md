@@ -24,6 +24,7 @@
 )密码:69kz
 * v2.0程序下载:[下载](https://fusong.lanzous.com/b01c9c2gd
 )密码:a0ym
+* v2.0.1 程序下载: [下载](https://fusong.lanzoui.com/iicr5qtgegb)
 * 资源包:[下载](https://fusong.lanzous.com/b01c4vzkj
 )密码:6hvm
 ## 安装
@@ -42,3 +43,4 @@
 * 2021-4-03  修复导入excel文件bug
 * 2021-4-06  添加微信公众号查题接口，修复后台管理登陆bug,修复logo上传,幻灯片上传bug,优化数据库表结构。
 * 2021-4-06  修复微信公众号接口bug,支持文本，图片，链接，地图接口功能，
+* 2021-6-29  整合优化了数据表，修复了查题bug

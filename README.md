@@ -73,11 +73,9 @@
 ## 项目截图
 
 - 首页:
-  [![yoXVtP.jpg](https://s3.ax1x.com/2021/02/21/yoXVtP.jpg)](https://imgchr.com/i/yoXVtP)
-  [![yoXZff.jpg](https://s3.ax1x.com/2021/02/21/yoXZff.jpg)](https://imgchr.com/i/yoXZff)
+ ![输入图片说明](https://images.gitee.com/uploads/images/2021/0819/200033_14bfd0cc_7358515.png "屏幕截图.png")
 - 后台:
-  [![yoOqm9.jpg](https://s3.ax1x.com/2021/02/21/yoOqm9.jpg)](https://imgchr.com/i/yoOqm9)
-  [![yoXimd.jpg](https://s3.ax1x.com/2021/02/21/yoXimd.jpg)](https://imgchr.com/i/yoXimd)
+ ![输入图片说明](https://images.gitee.com/uploads/images/2021/0819/195824_326b74b2_7358515.png "屏幕截图.png")
 
 ## 下载地址----请下载新版本
 

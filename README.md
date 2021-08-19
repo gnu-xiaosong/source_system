@@ -25,7 +25,6 @@
 │ ├─token token 验证接口目录
 │ ├─api 公共接口目录
 │ └─route.php 路由配置文件
-├─admin 后台管理文件目录
 │  
 ├─upload 文件上传目录
 │ ├─image 图片保存目录

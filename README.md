@@ -16,7 +16,7 @@
 - mysql
 
 ## 目录结构
-
+~~~
 ├─application 接口目录
 │ ├─index 首页接口目录
 │ ├─admin 管理员后台接口目录
@@ -51,7 +51,7 @@
 ├─LICENSE.txt 授权说明文件
 ├─README.md README 文件
 ├─index.phhp 项目入口文件
-
+~~~
 ## 新添功能特性
 
 - 模版化管理

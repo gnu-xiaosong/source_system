@@ -25,13 +25,15 @@
 │ ├─token token 验证接口目录
 │ ├─api 公共接口目录
 │ └─route.php 路由配置文件
-│  
+├─admin 后台管理文件目录
+│
 ├─upload 文件上传目录
 │ ├─image 图片保存目录
 │ ├─logo logo 图片保存目录
 │ ├─other 文件保存目录
 │ ├─slide 幻灯片保存目录
-│ └─tmp 临时存放目录——可以定期删除,节省空间
+│ ├─tmp 临时存放目录——可以定期删除,节省空间
+│
 │
 ├─template 前端模版目录
 │ ├─m1 模版一
@@ -41,7 +43,11 @@
 ├─public WEB 目录（对外接口访问目录）
 │ ├─index.php 入口文件
 │ ├─router.php 快速测试文件
-│ └─thinkphp thinkphp 核心类库源码目录
+│ ├─install 系统程序安装引导文件目录
+│ │ ├─config.db.php 系统数据库配置文件(修改数据库信息在这里修改)
+│ │ └─install.lock 安装锁文件(需要重新安装程序时删除该文件和 config.db.php 文件即可)
+│
+├─thinkphp thinkphp 核心类库源码目录
 │
 ├─vendor 第三方类库文件目录
 ├─extend 扩展类库目录

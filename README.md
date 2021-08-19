@@ -42,7 +42,7 @@
 ├─public WEB 目录（对外接口访问目录）
 │ ├─index.php 入口文件
 │ ├─router.php 快速测试文件
-├ └─thinkphp thinkphp 核心类库源码目录
+│ └─thinkphp thinkphp 核心类库源码目录
 │
 ├─vendor 第三方类库文件目录
 ├─extend 扩展类库目录

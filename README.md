@@ -83,7 +83,7 @@
 - v2.0 程序下载:[下载](https://fusong.lanzous.com/b01c9c2gd)密码:a0ym
 - v2.0.1 程序下载: [下载](https://fusong.lanzoui.com/iicr5qtgegb)
 - v2.1.. 程序下载: [下载](https://fusong.lanzoui.com/iagPTqx8fuh)
-- v3.0 程序下载: [下载](https://fusong.lanzoui.com/inwUBsut4pg)
+- v3.0 程序下载: [下载](https://fusong.lanzoui.com/iFQVqsvmplc)
 - 资源包:[下载](https://fusong.lanzous.com/b01c4vzkj)密码:6hvm
 
 ## 安装说明

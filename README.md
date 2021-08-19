@@ -42,10 +42,6 @@
 ├─public WEB 目录（对外接口访问目录）
 │ ├─index.php 入口文件
 │ ├─router.php 快速测试文件
-│ ├─install 系统程序安装引导文件目录
-│ │ ├─config.db.php 系统数据库配置文件(修改数据库信息在这里修改)
-│ │ └─install.lock 安装锁文件(需要重新安装程序时删除该文件和 config.db.php 文件即可)
-│
 ├─thinkphp thinkphp 核心类库源码目录
 │
 ├─vendor 第三方类库文件目录

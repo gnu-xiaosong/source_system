@@ -1,0 +1,10 @@
+这是模版目录
+
+模版开发规则
+
+Example:
+
+├─tempalte_name         模版名称-----建议英文
+│  ├─index.*            模版入口文件
+│  ├─read.txt           模版介绍
+│  ├─read.jpg           模块介绍图片

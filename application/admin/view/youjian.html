@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="小松改">
+    <meta name="keyword" content="网站，后台，模板，">
+    <link rel="shortcut icon" href="/public/static/admin//public/static/admin/img/favicon.png">
+
+    <title>小松题库系统-后台</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/public/static/admin/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/public/static/admin/css/bootstrap-reset.css" rel="stylesheet">
+    <!--external css-->
+    <link href="/public/static/admin/assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="/public/static/admin/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/public/static/admin/css/owl.carousel.css" type="text/css">
+    <!-- Custom styles for this template -->
+    <link href="/public/static/admin/css/style.css" rel="stylesheet">
+    <link href="/public/static/admin/css/style-responsive.css" rel="stylesheet" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+  <section id="container" >
+      <!--头部开始-->
+     {include file="/header" /}
+      <!--头部结束-->
+      
+      
+      
+      <!--侧边栏开始-->
+      {include file="/aside"/}
+      <!--侧边栏结束-->
+     
+    
+     
+      <!--main content start-->
+
+      <section id="main-content">
+      
+          <!--表单开始-->
+ 
+          <section class="wrapper">
+              <!--mail inbox start-->
+              <div class="mail-box">
+                  <aside class="sm-side">
+                      <div class="user-head">
+                          <a href="javascript:;" class="inbox-avatar">
+                              <img src="/public/static/admin/img/mail-avatar.jpg" alt="">
+                          </a>
+                          <div class="user-name">
+                              <h5><a href="#">小松科技</a></h5>
+                              <span><a href="#">1829134124@qq.com</a></span>
+                          </div>
+                          <a href="javascript:;" class="mail-dropdown pull-right">
+                              <i class="icon-chevron-down"></i>
+                          </a>
+                      </div>
+                      <div class="inbox-body">
+                          <a class="btn btn-compose" data-toggle="modal" href="#myModal">
+                              撰写
+                          </a>
+                          
+                          
+                          
+                          
+                          <!-- Modal -->
+                          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                              <div class="modal-dialog">
+                                  <div class="modal-content">
+                                      <div class="modal-header">
+                                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                          <h4 class="modal-title">撰写邮件</h4>
+                                      </div>
+                                      <div class="modal-body">
+                                          <form class="form-horizontal" role="form">
+                                              <div class="form-group">
+                                                  <label  class="col-lg-2 control-label">发送给</label>
+                                                  <div class="col-lg-10">
+                                                      <input type="text" class="form-control" id="inputEmail1" placeholder="">
+                                                  </div>
+                                              </div>
+                                              <div class="form-group">
+                                                  <label  class="col-lg-2 control-label">抄送/密送</label>
+                                                  <div class="col-lg-10">
+                                                      <input type="text" class="form-control" id="cc" placeholder="">
+                                                  </div>
+                                              </div>
+                                              <div class="form-group">
+                                                  <label class="col-lg-2 control-label">标题</label>
+                                                  <div class="col-lg-10">
+                                                      <input type="text" class="form-control" id="inputPassword1" placeholder="">
+                                                  </div>
+                                              </div>
+                                              <div class="form-group">
+                                                  <label class="col-lg-2 control-label">内容</label>
+                                                  <div class="col-lg-10">
+                                                      <textarea name="" id="" class="form-control" cols="30" rows="10"></textarea>
+                                                  </div>
+                                              </div>
+
+                                              <div class="form-group">
+                                                  <div class="col-lg-offset-2 col-lg-10">
+                                                      <span class="btn green fileinput-button">
+                                                        <i class="icon-plus icon-white"></i>
+                                                        <span>Attachment</span>
+                                                        <input type="file" multiple=""  name="files[]">
+                                                      </span>
+                                                      <button type="submit" class="btn btn-send">发送</button>
+                                                  </div>
+                                              </div>
+                                          </form>
+                                      </div>
+                                  </div><!-- /.modal-content -->
+                              </div><!-- /.modal-dialog -->
+                          </div><!-- /.modal -->
+                          
+                          
+                          
+                          
+                          
+                          
+                      </div>
+                      
+                      
+                      
+                      <ul class="inbox-nav inbox-divider">
+                          <li class="active">
+                              <a href="#"><i class="icon-inbox"></i> 收件箱<span class="label label-danger pull-right">2</span></a>
+
+                          </li>
+                          <li>
+                              <a href="#"><i class="icon-envelope-alt"></i> 发送邮件</a>
+                          </li>
+                          <li>
+                              <a href="#"><i class="icon-bookmark-empty"></i>重要</a>
+                          </li>
+                          <li>
+                              <a href="#"><i class=" icon-external-link"></i> 草稿 <span class="label label-info pull-right">30</span></a>
+                          </li>
+                          <li>
+                              <a href="#"><i class=" icon-trash"></i>垃圾 </a>
+                          </li>
+                      </ul>
+                      <ul class="nav nav-pills nav-stacked labels-info inbox-divider">
+                          <li> <h4>标签🏷️</h4> </li>
+                          <li> <a href="#"> <i class=" icon-sign-blank text-danger"></i>工作</a> </li>
+                          <li> <a href="#"> <i class=" icon-sign-blank text-success"></i> 设计</a> </li>
+                          <li> <a href="#"> <i class=" icon-sign-blank text-info "></i> 家庭 </a>
+                          <li> <a href="#"> <i class=" icon-sign-blank text-warning "></i> 朋友</a>
+                          <li> <a href="#"> <i class=" icon-sign-blank text-primary "></i> 办公</a>
+                          </li>
+                      </ul>
+                      <ul class="nav nav-pills nav-stacked labels-info ">
+                          <li> <h4>在线好友</h4> </li>
+                          <li> <a href="#"> <i class=" icon-circle text-success"></i> 小明<p>我好想你呀！</p></a>  </li>
+                          <li> <a href="#"> <i class=" icon-circle text-danger"></i> 小红 <p>在干嘛呢？</p></a> </li>
+                          <li> <a href="#"> <i class=" icon-circle text-muted "></i> 小东 <p>好无聊啊！</p></a>
+                          <li> <a href="#"> <i class=" icon-circle text-muted "></i> 小小<p>我知道</p></a>
+                          <li> <a href="#"> <i class=" icon-circle text-muted "></i> 大大<p>我知道了啦</p></a>
+                          </li>
+                      </ul>
+<!--待办事项清单-->
+
+
+
+
+              <!--mail inbox end-->
+          </section>
+     
+          
+      
+                      
+                      
+                      
+                    
+                      
+                      
+                      
+             <!--表单结束-->
+      </section>
+      <!--main content end-->
+      
+      
+      
+      
+      
+      
+      <!--footer start-->
+      <footer class="site-footer">
+          <div class="text-center">
+              2020&copy; 小松科技
+              <a href="#" class="go-top">
+                  <i class="icon-angle-up"></i>
+              </a>
+          </div>
+      </footer>
+      <!--footer end-->
+  </section>
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="/public/static/adminjs/jquery.js"></script>
+    <script src="/public/static/admin/js/jquery-1.8.3.min.js"></script>
+    <script src="/public/static/admin/js/bootstrap.min.js"></script>
+    <script class="include" type="text/javascript" src="/public/static/admin/js/jquery.dcjqaccordion.2.7.js"></script>
+    <script src="/public/static/admin/js/jquery.scrollTo.min.js"></script>
+    <script src="/public/static/admin/js/jquery.nicescroll.js" type="text/javascript"></script>
+    <script src="/public/static/admin/js/jquery.sparkline.js" type="text/javascript"></script>
+    <script src="/public/static/admin/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.js"></script>
+    <script src="/public/static/admin/js/owl.carousel.js" ></script>
+    <script src="/public/static/admin/js/jquery.customSelect.min.js" ></script>
+    <script src="/public/static/admin/js/respond.min.js" ></script>
+
+    <script class="include" type="text/javascript" src="/public/static/admin/js/jquery.dcjqaccordion.2.7.js"></script>
+
+    <!--common script for all pages-->
+    <script src="/public/static/admin/js/common-scripts.js"></script>
+
+    <!--script for this page-->
+    <script src="/public/static/admin/js/sparkline-chart.js"></script>
+    <script src="/public/static/admin/js/easy-pie-chart.js"></script>
+    <script src="/public/static/admin/js/count.js"></script>
+
+  <script>
+
+      //owl carousel
+
+      $(document).ready(function() {
+          $("#owl-demo").owlCarousel({
+              navigation : true,
+              slideSpeed : 300,
+              paginationSpeed : 400,
+              singleItem : true,
+			  autoPlay:true
+
+          });
+      });
+
+      //custom select box
+
+      $(function(){
+          $('select.styled').customSelect();
+      });
+
+  </script>
+
+  </body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>图片文字在线免费识别</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+</head>
+<body>
+ <div id="app">
+        <input type="file" name="file" />   
+        
+        
+        <button @click="recognize()">识别</button>
+       <button @click="down()">下载txt文件</button>
+       <p>下载文件建议用谷歌或火狐浏览器下载，其他浏览器会下载失败的情况</p>
+        <p>识别结果：<br/><p id="text">{{text}}</p></p><button @click="copy()">复制文本</button>
+</div>
+</body>
+</html>
+
+
+<script src='./tesseract.min.js'></script>
+<script src='./vue.min.js'></script>
+<script>
+
+
+
+const app=new Vue({
+   el:"#app",
+   data:{
+   text:""
+   },
+   
+   methods:{
+   recognize(){
+   this.text="识别中…";
+  const img = URL.createObjectURL(document.querySelector('input[type=file]').files[0]); 
+  const worker = Tesseract.createWorker({
+  workerPath: './worker/worker.min.js',
+  langPath: './lang',
+  corePath: './core/tesseract-core.wasm.js',
+});
+
+(async () => {
+  await worker.load();
+  await worker.loadLanguage('chi_sim+eng+equ');
+  await worker.initialize('chi_sim+eng+equ');
+  const { data: { text } } = await worker.recognize(img);
+  console.log(text);
+  this.text=text;
+  await worker.terminate();
+})();
+//下载文件赋值
+},
+   
+   down(){
+   var date=new Date();
+	//年
+    var year=date.getFullYear();
+    //月
+    var month=date.getMonth()+1;
+    //日
+    var day=date.getDate();
+    //时
+    var hh=date.getHours();
+    //分
+    var mm=date.getMinutes();
+    //秒
+    var ss=date.getSeconds();
+    var time=year+"-"+month+"-"+day+hh+mm+ss;
+   this.download(time+".txt",this.text);
+   },
+   
+   
+   //下载文件
+   download(filename, text) {
+    var pom = document.createElement('a');
+    pom.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+    pom.setAttribute('download', filename);
+    if (document.createEvent) {
+        var event = document.createEvent('MouseEvents');
+        event.initEvent('click', true, true);
+        pom.dispatchEvent(event);
+    } else {
+        pom.click();
+    }
+},
+
+   copy(){
+     var Url2=document.getElementById("text");
+     Url2.select(); // 选择对象
+     document.execCommand("Copy"); // 执行浏览器复制命令
+     alert("已复制好，可贴粘。");
+   
+   }
+   
+   }
+
+});
+</script>
+
+<style>
+#log > div {
+    color: #313131;
+    border-top: 1px solid #dadada;
+    padding: 9px;
+    display: flex;
+}
+#log > div:first-child {
+    border: 0;
+}
+
+
+.status {
+	min-width: 250px;
+}
+#log {
+    border: 1px solid #dadada;
+    padding: 10px;
+    margin-top: 20px;
+    min-height: 100px;
+}
+body {
+    font-family: sans-serif;
+    margin: 30px;
+}
+
+progress {
+    display: block;
+    width: 100%;
+    transition: opacity 0.5s linear;
+}
+progress[value="1"] {
+    opacity: 0.5;
+}
+</style>

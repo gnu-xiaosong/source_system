@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>{ web_title }</title>
+    <meta name="viewport" content="{ web_keyword }">
+    <meta http-equiv="X-UA-Compatible" content="{ web_description }">
+    <link rel="stylesheet" href="/public/templet/m/css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="/public/templet/m/skins/eden.css" media="screen">
+    <link rel="stylesheet" href="/public/templet/m/style.css" media="screen">
+    <link href="/public/templet/m/fonts/icons/icons.css" rel="stylesheet">
+    <link href="/public/templet/m/css/animate.css" rel="stylesheet">
+
+</head>
+<body   data-spy="scroll" data-target="#topnav"  id="top">
+
+    <section class="header-area-home" id="header-area-home">
+        <div id="main-nav-container">
+            <div  class="container">
+            <nav class="navbar navbar-eden" id="topnav">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#main-menu">
+                            <span class="sr-only">Toggle navigation</span>
+                            <i class="tn-menu"></i>
+                        </button>
+                        <a class="navbar-brand" href="#"><img src="" /></a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="main-menu">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="/">首页</a></li>
+                            <li><a href="{:url('search/Search/searchIndex')}">搜题</a></li>
+                            <li><a href="{:url('collection/Collection/index')}">资源搜集</a></li>
+                            <li><a href="{:url('user/User/login')}">用户登录</a></li>
+                            <li><a href="{:url('user/Register/index')}">用户注册</a></li>
+                            <li><a href="{:url('admin/Adminlogin/adminlogin')}">管理员登录</a></li>
+
+                        </ul>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#search"><i class="tn-search"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            </div>
+        </div>
+        <div id="featured-slider-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="featured-slider" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#featured-slider" data-slide-to="0" class="active"><img src='imgs/slider-1-t.jpg' alt='' class='featured-slide-thumb'  /></li>
+                                <li data-target="#featured-slider" data-slide-to="1" ><img src='/public/templet/m/imgs/slider-2-t.jpg' alt='' class='featured-slide-thumb'  /></li>
+                                <li data-target="#featured-slider" data-slide-to="2" ><img src='/public/templet/m/imgs/slider-3-t.jpg' alt='' class='featured-slide-thumb'  /></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active" id="slide-2">
+                                    <img src='/public/templet/m/imgs/slider-1.jpg' alt='' class='featured-slide inv' data-animation = 'animated zoomIn' data-delay = '0.3s' />
+                                    <img src='/public/templet/m/imgs/slider-2.jpg' alt='' class='featured-slide featured-slide-1 inv' data-animation = 'animated zoomIn' data-delay = '0.7s' />
+                                    <div class="carousel-caption">
+                                        <span class="lead slide-cat inv"  data-animation="animated zoomIn"><a href="#" rel="category">微小高效</a></span>
+                                        <h2 class="slide-title inv"  data-animation="animated fadeInUp" data-duration="2s" data-delay="1s">采用全新的程序设计模式，程序运行快而流畅</h2>
+                                        <div class="slide-excerpt inv" data-animation="animated fadeInUp" data-duration="3s" data-delay="2s">
+                                            <ul class="row">
+                                                <li class="col-lg-6" data-animation = 'animated zoomIn' data-delay = '2s'>Aenean convallis quam</li>
+                                                <li class="col-lg-6" data-animation = 'animated zoomIn' data-delay = '2.1s'>Lorem Ipsum Dolor Sit</li>
+                                                <li class="col-lg-6" data-animation = 'animated zoomIn' data-delay = '2.2s'>Nam non metus orci Proin</li>
+                                                <li class="col-lg-6" data-animation = 'animated zoomIn' data-delay = '2.3s'>Nunc porta malesuada odio</li>
+                                                <li class="col-lg-6" data-animation = 'animated zoomIn' data-delay = '2.4s'>Aenean convallis quam</li>
+                                                <li class="col-lg-6" data-animation = 'animated zoomIn' data-delay = '2.5s'>Lorem Ipsum Dolor Sit</li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="meta">
+                                            <button class="btn btn-primary inv slide-btn btn-lg"  data-animation="animated fadeInUp" data-delay="3s" data-duration="2s"><i class="tn-arrow-right"></i></button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="item" id="slide-3">
+                                    <img src='/public/templet/m/imgs/slider-2.jpg' alt='' class='featured-slide inv' data-animation = 'animated zoomIn' data-delay = '0.3s' />
+                                    <img src='/public/templet/m/imgs/slider-3.jpg' alt='' class='featured-slide featured-slide-1 inv' data-animation = 'animated zoomIn' data-delay = '0.7s' />
+                                    <div class="carousel-caption">
+                                        <span class="lead slide-cat inv"  data-animation="animated zoomIn"><a href="#" rel="category">Android</a></span>
+                                        <h2 class="slide-title inv"  data-animation="animated fadeInUp" data-duration="2s" data-delay="1s">Aenean convallis quam faucibus nisi scelerisque</h2>
+                                        <div class="slide-excerpt inv" data-animation="animated fadeInUp" data-duration="3s" data-delay="2s">
+                                            <ul class="row">
+                                                <li class="col-lg-6" data-animation = 'animated fadeInLeft' data-delay = '2s'>Aenean convallis quam</li>
+                                                <li class="col-lg-6" data-animation = 'animated fadeInLeft' data-delay = '2.1s'>Lorem Ipsum Dolor Sit</li>
+                                                <li class="col-lg-6" data-animation = 'animated fadeInLeft' data-delay = '2.2s'>Nam non metus orci Proin</li>
+                                                <li class="col-lg-6" data-animation = 'animated fadeInLeft' data-delay = '2.3s'>Nunc porta malesuada odio</li>
+                                                <li class="col-lg-6" data-animation = 'animated fadeInLeft' data-delay = '2.4s'>Aenean convallis quam</li>
+                                                <li class="col-lg-6" data-animation = 'animated fadeInLeft' data-delay = '2.5s'>Lorem Ipsum Dolor Sit</li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="meta">
+                                            <button class="btn btn-info inv slide-btn btn-lg"  data-animation="animated lightSpeedIn" data-delay="3s" data-duration="2s">Full Story <i class="tn-arrow-right"></i></button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="item" id="slide-4">
+                                    <img src='/public/templet/m/imgs/slider-3.jpg' alt='' class='featured-slide inv' data-animation = 'animated zoomIn' data-delay = '0.3s' />
+                                    <img src='/public/templet/m/imgs/slider-1.jpg' alt='' class='featured-slide featured-slide-1 inv' data-animation = 'animated zoomIn' data-delay = '0.7s' />
+                                    <div class="carousel-caption">
+                                        <span class="lead slide-cat inv"  data-animation="animated zoomIn"><a href="#" rel="category">IOS APP</a></span>
+                                        <h2 class="slide-title inv"  data-animation="animated fadeInUp" data-duration="2s" data-delay="1s">Aenean convallis quam faucibus nisi scelerisque</h2>
+                                        <div class="slide-excerpt inv" data-animation="animated fadeInUp" data-duration="3s" data-delay="2s">
+                                            <ul class="row">
+                                                <li class="col-lg-6" data-animation = 'animated zoomIn' data-delay = '2s'>Aenean convallis quam</li>
+                                                <li class="col-lg-6" data-animation = 'animated zoomIn' data-delay = '2.1s'>Lorem Ipsum Dolor Sit</li>
+                                                <li class="col-lg-6" data-animation = 'animated zoomIn' data-delay = '2.2s'>Nam non metus orci Proin</li>
+                                                <li class="col-lg-6" data-animation = 'animated zoomIn' data-delay = '2.3s'>Nunc porta malesuada odio</li>
+                                                <li class="col-lg-6" data-animation = 'animated zoomIn' data-delay = '2.4s'>Aenean convallis quam</li>
+                                                <li class="col-lg-6" data-animation = 'animated zoomIn' data-delay = '2.5s'>Lorem Ipsum Dolor Sit</li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="meta">
+                                            <button class="btn btn-danger inv slide-btn btn-lg"  data-animation="animated fadeInUp" data-delay="3s" data-duration="2s">Full Story <i class="tn-arrow-right"></i></button>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="featured-content-area" id="featured-content-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="panel panel-success panel-featured-content  text-center">
+                        <div class="panel-heading">高性能</div>
+                        <div class="panel-body">
+                            <div class="diamond filled bg-success wow zoomIn" data-wow-delay="500ms">
+                            <i class="lineicon tn-paint-roller"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-info panel-featured-content  text-center">
+                        <div class="panel-heading">渲染式的模板引擎</div>
+                        <div class="panel-body">
+                            <div class="diamond filled bg-info wow zoomIn" data-wow-delay="900ms" >
+                                <i class="lineicon tn-world"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-primary panel-featured-content  text-center">
+                        <div class="panel-heading">依托高性能框架</div>
+                        <div class="panel-body">
+                            <div class="diamond filled  bg-primary wow zoomIn" data-wow-delay="1300ms" >
+                                <i class="lineicon tn-android"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-warning panel-featured-content  text-center">
+                        <div class="panel-heading">多平台编译运行</div>
+                        <div class="panel-body">
+                            <div class="diamond filled bg-warning wow zoomIn" data-wow-delay="1700ms" >
+                                <i class="lineicon tn-apple"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="why-us" id="why-us">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center section-intro">
+                    <h2 class="header-boxed wow zoomIn" data-wow-iteration="1"><span>为什么选择我们?</span></h2>
+                    <p class="lead wow fadeInUp"  data-wow-delay="600ms">我们拥有全国顶尖的开发工程师，致力于轻量级设计，满足用户多样化需求</p>
+                </div>
+                <div class="col-md-12 highlight-boxes">
+                <div class="col-md-4 wow fadeInLeft" data-wow-delay="500ms">
+                    <div class="featured-content-box text-center">
+                        <i class="tn-heart ico-lg text-warning"></i>
+
+                        <h3>有话说</h3>
+                        <p>我们始终以用户需求为中心，不断优化，不断完善程序</p>
+                        <button class="btn btn-warning">Read More </button>
+                    </div>
+                </div>
+                <div class="col-md-4 wow zoomIn" data-wow-delay="100ms">
+                    <div class="featured-content-box text-center">
+                        <i class="tn-server ico-lg text-info"></i>
+
+                        <h3> 高性能数据库</h3>
+                        <p>采用高性能的数据库服务支持，满足用户多样化查询需求.</p>
+                        <button class="btn btn-info">Read More </button>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInRight" data-wow-delay="500ms">
+                    <div class="featured-content-box text-center">
+                        <i class="tn-anchor ico-lg text-success"></i>
+
+                        <h3>开源免费</h3>
+                        <p>本项目完全开源年费，欢迎大家提出宝贵意见，不断完善.</p>
+                        <button class="btn btn-primary">Read More </button>
+                    </div>
+                </div>
+                    <div class="col-md-4 wow fadeInUp">
+                        <div class="featured-content-box text-center">
+                            <i class="tn-agenda ico-lg text-danger"></i>
+
+                            <h3>高性能服务器支持 </h3>
+                            <p>我们联合腾讯，阿里等云服务商，在全国部署上百个服务器，力求稳定运行</p>
+                            <button class="btn btn-danger">Read More </button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
+                        <div class="featured-content-box text-center">
+                            <i class="tn-dashboard ico-lg text-info"></i>
+
+                            <h3>不断维护更新</h3>
+                            <p>团队将会不断汲取其他项目经验，不断更新还项目。</p>
+                            <button class="btn btn-info">Read More </button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <section class="pricing" id="pricing">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-12 text-center section-intro">
+        <h2 class="header-boxed  wow zoomIn" data-wow-iteration="1"><span>下载安装</span></h2>
+        <p class="lead wow fadeInUp" data-wow-delay="200ms">我们提供了多版本的下载:</p>
+    </div>
+
+    <div class="col-md-12">
+        <div class="col-md-6 pricing-table-block wow fadeInLeft">
+            <div class="col-md-6 tb-left text-center">
+                <h5 class="text-light">Pro</h5>
+                <h3>评分</h3>
+                <p><i class="tn-star  text-info"></i><i class="tn-star  text-info"></i><i class="tn-star"></i><i class="tn-star"></i><i class="tn-star"></i></p>
+                <p class="pac-info">完整版2.0</p>
+                <button class="btn btn-default">下载</button>
+            </div>
+            <div class="col-md-6 tb-right">
+                <ul class="list-group">
+                    <li class="list-group-item"><i class="tn-server"></i> 1 Doamin</li>
+                    <li class="list-group-item"><i class="tn-download"></i> 5 GB Bandwidth</li>
+                    <li class="list-group-item"><i class="tn-harddrives"></i> 25 GB Space</li>
+                    <li class="list-group-item"><i class="tn-email"></i> 30 Email</li>
+                    <li class="list-group-item"><i class="tn-user"></i> 10 Users</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6 pricing-table-block wow fadeInRight">
+            <div class="col-md-6 tb-left text-center">
+                <h5 class="text-info">Business</h5>
+                <h3>$54.00</h3>
+                <p><i class="tn-star text-info"></i><i class="tn-star text-info"></i><i class="tn-star text-info"></i><i class="tn-star"></i><i class="tn-star"></i></p>
+                <p class="pac-info">商用版</p>
+                <button class="btn btn-info">下载</button>
+            </div>
+            <div class="col-md-6 tb-right">
+                <ul class="list-group">
+                    <li class="list-group-item"><i class="tn-server"></i> 1 Doamin</li>
+                    <li class="list-group-item"><i class="tn-download"></i> 5 GB Bandwidth</li>
+                    <li class="list-group-item"><i class="tn-harddrives"></i> 25 GB Space</li>
+                    <li class="list-group-item"><i class="tn-email"></i> 30 Email</li>
+                    <li class="list-group-item"><i class="tn-user"></i> 10 Users</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6 pricing-table-block wow fadeInUp" data-wow-delay="100ms">
+            <div class="col-md-6 tb-left text-center">
+                <h5 class="text-warning">简剪版</h5>
+                <h3>$54.00</h3>
+                <p><i class="tn-star text-warning"></i><i class="tn-star text-warning"></i><i class="tn-star text-warning"></i><i class="tn-star text-warning"></i><i class="tn-star"></i></p>
+                <p class="pac-info">简剪版</p>
+                <button class="btn btn-warning">下载!</button>
+            </div>
+            <div class="col-md-6 tb-right">
+                <ul class="list-group">
+                    <li class="list-group-item"><i class="tn-server"></i> 1 Doamin</li>
+                    <li class="list-group-item"><i class="tn-download"></i> 5 GB Bandwidth</li>
+                    <li class="list-group-item"><i class="tn-harddrives"></i> 25 GB Space</li>
+                    <li class="list-group-item"><i class="tn-email"></i> 30 Email</li>
+                    <li class="list-group-item"><i class="tn-user"></i> 10 Users</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6 pricing-table-block wow fadeInUp" data-wow-delay="200ms">
+            <div class="col-md-6 tb-left text-center">
+                <h5 class="text-success">绿色版</h5>
+                <h3>$54.00</h3>
+                <p><i class="tn-star text-success"></i><i class="tn-star  text-success"></i><i class="tn-star  text-success"></i><i class="tn-star  text-success"></i><i class="tn-star  text-success"></i></p>
+                <p class="pac-info">绿色版</p>
+                <button class="btn btn-primary">下载!</button>
+            </div>
+            <div class="col-md-6 tb-right">
+                <ul class="list-group">
+                    <li class="list-group-item"><i class="tn-server"></i> 1 Doamin</li>
+                    <li class="list-group-item"><i class="tn-download"></i> 5 GB Bandwidth</li>
+                    <li class="list-group-item"><i class="tn-harddrives"></i> 25 GB Space</li>
+                    <li class="list-group-item"><i class="tn-email"></i> 30 Email</li>
+                    <li class="list-group-item"><i class="tn-user"></i> 10 Users</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    </div>
+    </section>
+
+    <section class="curious" id="curious">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-12 text-center section-intro">
+        <h2 class="header-boxed wow zoomIn" data-wow-iteration="1"><span>如何联系我们</span></h2>
+        <p class="lead">下面👇🏻:</p>
+    </div>
+        <div class="col-md-6">
+            <div class="contact-form wow fadeInLeft">
+            <form class="row" method="get" action="">
+                <div class="col-md-6">
+                    <div class="form-group"><label>Your name here<i class="fa fa-asterisk"></i></label> <input type="text" name="name" class="form-control"></div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group"><label>Your e-mail<i class="fa fa-asterisk"></i></label> <input type="email" name="email" class="form-control"></div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group"><label>Your Message</label> <textarea name="message" rows="6" class="form-control"></textarea></div>
+                    <div class="send_result"></div>
+                </div>
+                <div class="col-md-12"><input type="submit" value="SUBMIT" class="btn btn-primary btn-lg btn-block" name="submit">
+                </div>
+            </form>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="featured-content-box text-center wow fadeInDown">
+                <div class="circle feature-icon">
+                    <i class="tn-mobile"></i>
+                </div>
+
+                <h3>Phone</h3>
+                <p>+123-456-5678</p>
+
+            </div>
+
+            <div class="featured-content-box text-center wow fadeInUp">
+                <div class="circle feature-icon">
+                    <i class="tn-email"></i>
+                </div>
+
+                <h3>Email</h3>
+                <p>contact@scripteden.com</p>
+
+            </div>
+
+        </div>
+        <div class="col-md-3">
+            <div class="panel panel-default panel-subscribe panel-subscribe-narrow panel-subscribe-light panel-subscribe-vert wow fadeInRight">
+                <div class="panel-body">
+                    <div class="media text-center">
+                        <img src="/public/templet/m/imgs/email2.png">
+                        <div class="media-body">
+                            <h3>Get it in your inbox!</h3>
+                            Try warming chili garnished with ice water, marinateed with baking powder.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-footer">
+
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="First Name" id="fname1" class="form-control">
+                        </div>
+                        <div class="input-group">
+                            <input type="email" placeholder="Your Email" class="form-control">
+                        <span class="input-group-btn">
+                        <button class="btn btn-inverse btn-block" type="submit">Subscribe</button>
+                    </span>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </section>
+
+    <footer>
+    <div class="container">
+    <div class="row">
+    <div class="col-md-12 text-center section-intro">
+        <hr/>
+        <h2><img src="/public/templet/m/imgs/optimus-logo.png" /></h2>
+        2020.{ web_copyright }{web_beian}<a target="_blank" href="http://s/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a>
+        <a href="#" class="btn-social btn-facebook btn-sm"><i class="tn-facebook"></i></a>
+        <a href="#" class="btn-social btn-google-plus btn-sm"><i class="tn-google"></i></a>
+        <a href="#" class="btn-social btn-vimeo btn-sm"><i class="tn-vimeo"></i></a>
+        <a href="#" class="btn-social btn-dropbox btn-sm"><i class="tn-dropbox"></i></a>
+    </div>
+    </div>
+    </div>
+        <br/><br/>
+    </footer>
+
+
+
+<script src="/public/templet/m/js/jquery-2.1.3.min.js"></script>
+<script src="/public/templet/m/js/bootstrap.min.js"></script>
+<script src="/public/templet/m/js/jquery.sticky.js"></script>
+<script src="/public/templet/m/js/wow.min.js"></script>
+<script src="/public/templet/m/js/site.js"></script>
+
+</body>
+</html>

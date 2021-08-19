@@ -38,7 +38,6 @@
 ├─template 前端模版目录
 │ ├─m1 模版一
 │ └─ ....
-├─tool 工具目录
 │
 ├─public WEB 目录（对外接口访问目录）
 │ ├─index.php 入口文件
@@ -83,7 +82,7 @@
 - v2.0 程序下载:[下载](https://fusong.lanzous.com/b01c9c2gd)密码:a0ym
 - v2.0.1 程序下载: [下载](https://fusong.lanzoui.com/iicr5qtgegb)
 - v2.1.. 程序下载: [下载](https://fusong.lanzoui.com/iagPTqx8fuh)
-- v3.0.1 程序下载: [下载](https://fusong.lanzoui.com/iFQVqsvmplc)
+- v3.1.0 程序下载: [下载](https://fusong.lanzoui.com/iLbLHsvnibg)
 - 资源包:[下载](https://fusong.lanzous.com/b01c4vzkj)密码:6hvm
 
 ## 安装说明

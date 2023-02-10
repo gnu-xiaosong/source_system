@@ -89,6 +89,12 @@ https://gitee.com/komatsu1134/source_system
 - v5     程序下载: [下载](https://fusong.lanzoui.com/b01cp062h) 密码:38lh
 - 资源包:[下载](https://fusong.lanzous.com/b01c4vzkj)密码:6hvm
 
+## 后台管理系统更新包下载
+| 版本  | 对应接口版本  | 下载链接  | 更新说明  |
+| :------------: | :------------: | :------------: | :------------: |
+| v1.0  | v6.x  | https://fusong.lanzoul.com/b01ehvr4f
+密码:8fis  | 不推荐，存在诸多bug  |
+
 ## 安装说明
 
 - 注意：安装成功后如果发现数据库表中没有

@@ -89,6 +89,12 @@ https://gitee.com/komatsu1134/source_system
 - v5     程序下载: [下载](https://fusong.lanzoui.com/b01cp062h) 密码:38lh
 - 资源包:[下载](https://fusong.lanzous.com/b01c4vzkj)密码:6hvm
 
+## 插件列表
+| 名称  | 要求  | 下载链接  | 说明  |
+| :------------: | :------------: | :------------: | :------------: |
+| tinymce  | 无 | https://fusong.lanzoul.com/b01ehvuze密码:ekip  | 专门用于编辑原本拓展文本编辑器功能 |
+
+
 ## 后台管理系统更新包下载
 | 版本  | 对应接口版本  | 下载链接  | 更新说明  |
 | :------------: | :------------: | :------------: | :------------: |

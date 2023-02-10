@@ -92,8 +92,7 @@ https://gitee.com/komatsu1134/source_system
 ## 后台管理系统更新包下载
 | 版本  | 对应接口版本  | 下载链接  | 更新说明  |
 | :------------: | :------------: | :------------: | :------------: |
-| v1.0  | v6.x  | https://fusong.lanzoul.com/b01ehvr4f
-密码:8fis  | 不推荐，存在诸多bug  |
+| v1.0  | v6.x  | https://fusong.lanzoul.com/b01ehvr4f密码:8fis  | 不推荐，存在诸多bug  |
 
 ## 安装说明
 

@@ -92,13 +92,13 @@ https://gitee.com/komatsu1134/source_system
 ## 插件列表
 | 名称  | 要求  | 下载链接  | 说明  |
 | :------------: | :------------: | :------------: | :------------: |
-| tinymce  | 无 | https://fusong.lanzoul.com/b01ehvuze密码:ekip  | 专门用于编辑原本拓展文本编辑器功能 |
+| tinymce  | 无 | https://fusong.lanzoul.com/b01cxvgji密码:hwo6  | 专门用于编辑原本拓展文本编辑器功能 |
 
 
 ## 后台管理系统更新包下载
 | 版本  | 对应接口版本  | 下载链接  | 更新说明  |
 | :------------: | :------------: | :------------: | :------------: |
-| v1.0  | v6.x  | https://fusong.lanzoul.com/b01ehvr4f密码:8fis  | 不推荐，存在诸多bug  |
+| v1.0  | v6.x  | https://fusong.lanzoul.com/b01ehvuze密码:ekip  | 不推荐，存在诸多bug  |
 
 ## 安装说明
 
